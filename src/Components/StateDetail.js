@@ -7,6 +7,7 @@ function StateDetail({match}) {
     const [district,setDistrict]=useState([]);
     useEffect(()=>{
         corona();
+        window.scrollTo(0, 0);
     },[]);
     const corona = async ()=>{
         const data = await fetch('https://api.covid19india.org/data.json');

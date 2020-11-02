@@ -25,6 +25,11 @@ function Header() {
                         <li className="nav-item">
                             <NavLink activeClassName="currentRoute" exact to="/about" className="nav-link" >About</NavLink>
                         </li>
+                        <li class="nav-item">
+                            <a target="_blank" rel="noreferrer" class="nav-link" href="https://github.com/saravanaraja25/covid-tracker-react">
+                                <i class="fab fa-github"></i> Source Code                       
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 
